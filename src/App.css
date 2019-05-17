@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+:root{
+  --primary-color: rgb(6, 51, 88);
+  --white:#ffff;
+  --light-grey:#0002;
+}
+.App-header{
+  width: 100%;
+  background:var(--primary-color);
+  color:var(--white);
+
+}

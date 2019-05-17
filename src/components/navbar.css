@@ -1,0 +1,45 @@
+
+
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto; 
+  padding-bottom:3.4px;
+  
+}
+.brand{
+  margin: 0 0 0 20px;
+}
+
+ .navbar ul{
+   margin-top: 10px;
+ }
+.navbar li{
+  float: right;
+  list-style: none;
+  
+}
+
+.navbar li a{
+  margin-right:20px;
+  padding: 15px 25px; 
+  text-decoration: none;
+  color:var(--white);
+  font-size: 14px;
+  font-weight:bold;
+}
+.navbar li a:hover{
+  color:var(--primary-color);
+  background:var(--white);
+  transition: 0.3s;
+  border:none;
+  outline: none;
+}
+/*
+hr{
+  outline:none;
+  border: 0.5px solid #0001;
+  margin-top: 8px;;
+  width: 98%
+}*/
